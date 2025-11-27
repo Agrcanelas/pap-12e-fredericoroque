@@ -818,3 +818,440 @@ footer {
         transform: rotate(90deg);
     }
 }
+<div class="results-list">
+                        <div class="result-item win">
+                            <div class="result-badge">V</div>
+                            <div class="result-teams">
+                                <div class="team-row">
+                                    <img src="assets/logo.png" alt="Canelas">
+                                    <span class="team-name">CF Canelas 2010</span>
+                                    <span class="score">3</span>
+                                </div>
+                                <div class="team-row">
+                                    <img src="assets/torrao.png" alt="CD Torrão">
+                                    <span class="team-name">CD Torrão</span>
+                                    <span class="score">0</span>
+                                </div>
+                            </div>
+                            <div class="result-date">16 Nov</div>
+                        </div>
+
+                        <div class="result-item win">
+                            <div class="result-badge">V</div>
+                            <div class="result-teams">
+                                <div class="team-row">
+                                    <img src="assets/leverense.png" alt="Leverense">
+                                    <span class="team-name">Leverense</span>
+                                    <span class="score">1</span>
+                                </div>
+                                <div class="team-row">
+                                    <img src="assets/logo.png" alt="Canelas">
+                                    <span class="team-name">CF Canelas 2010</span>
+                                    <span class="score">4</span>
+                                </div>
+                            </div>
+                            <div class="result-date">02 Nov</div>
+                        </div>
+
+                        <div class="result-item draw">
+                            <div class="result-badge">E</div>
+                            <div class="result-teams">
+                                <div class="team-row">
+                                    <img src="assets/gervide.png" alt="AC Gervide">
+                                    <span class="team-name">AC Gervide</span>
+                                    <span class="score">1</span>
+                                </div>
+                                <div class="team-row">
+                                    <img src="assets/logo.png" alt="Canelas">
+                                    <span class="team-name">CF Canelas 2010</span>
+                                    <span class="score">1</span>
+                                </div>
+                            </div>
+                            <div class="result-date">08 Fev</div>
+                        </div>
+
+                        <div class="result-item win">
+                            <div class="result-badge">V</div>
+                            <div class="result-teams">
+                                <div class="team-row">
+                                    <img src="assets/logo.png" alt="Canelas">
+                                    <span class="team-name">CF Canelas 2010</span>
+                                    <span class="score">2</span>
+                                </div>
+                                <div class="team-row">
+                                    <img src="assets/adversario1.png" alt="Adversário">
+                                    <span class="team-name">Adversário</span>
+                                    <span class="score">0</span>
+                                </div>
+                            </div>
+                            <div class="result-date">Out</div>
+                        </div>
+                    </div><!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CF Canelas 2010 - Página Principal</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="assets/logo.png" alt="CF Canelas 2010">
+                    <div class="logo-info">
+                        <h1>CF Canelas 2010</h1>
+                        <p><i class="fas fa-envelope"></i> canelas2010@canelas2010.pt</p>
+                    </div>
+                </div>
+                
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html" class="active">Início</a></li>
+                        <li><a href="clube.html">O Clube</a></li>
+                        <li><a href="planteis.html">Plantéis</a></li>
+                        <li><a href="galeria.html">Galeria</a></li>
+                        <li><a href="contactos.html">Contactos</a></li>
+                    </ul>
+                </nav>
+                
+                <button class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>A nossa raça vence qualquer alma</h2>
+                    <p>Bem-vindo ao site oficial do CF Canelas 2010. Acompanhe todas as informações, resultados e classificação do clube.</p>
+                    <div class="hero-buttons">
+                        <a href="planteis.html" class="btn btn-primary">Ver Plantel</a>
+                        <a href="contactos.html" class="btn btn-secondary">Contacte-nos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container">
+        <div class="content-grid">
+            
+            <!-- Coluna Principal -->
+            <div class="main-column">
+                
+                <!-- Próximo Jogo -->
+                <section class="card highlight-card">
+                    <div class="card-header">
+                        <h3><i class="fas fa-calendar-alt"></i> Próximo Jogo</h3>
+                    </div>
+                    <div class="next-match">
+                        <div class="match-date">
+                            <span class="day">Domingo</span>
+                            <span class="date">23 Novembro 2025</span>
+                            <span class="time">15:30</span>
+                        </div>
+                        <div class="match-teams">
+                            <div class="team home">
+                                <img src="assets/ventura.png" alt="Ventura SC">
+                                <span>Ventura SC</span>
+                            </div>
+                            <div class="versus">VS</div>
+                            <div class="team away">
+                                <img src="assets/logo.png" alt="Canelas">
+                                <span>CF Canelas 2010</span>
+                            </div>
+                        </div>
+                        <div class="match-info">
+                            <p><i class="fas fa-trophy"></i> AF Porto I Divisão - Série 5</p>
+                            <p><i class="fas fa-map-marker-alt"></i> Estádio do CF Canelas 2010</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Últimos Resultados -->
+                <section class="card">
+                    <div class="card-header">
+                        <h3><i class="fas fa-list"></i> Últimos Resultados</h3>
+                        <a href="https://www.zerozero.pt/equipa/canelas-2010/49813" target="_blank" class="view-all">Ver todos</a>
+                    </div>
+                    <div class="results-list">
+                        <div class="result-item win">
+                            <div class="result-badge">V</div>
+                            <div class="result-teams">
+                                <div class="team-row">
+                                    <img src="assets/leverense.png" alt="Leverense">
+                                    <span class="team-name">Leverense</span>
+                                    <span class="score">1</span>
+                                </div>
+                                <div class="team-row">
+                                    <img src="assets/logo.png" alt="Canelas">
+                                    <span class="team-name">CF Canelas 2010</span>
+                                    <span class="score">4</span>
+                                </div>
+                            </div>
+                            <div class="result-date">02 Nov</div>
+                        </div>
+
+                        <div class="result-item loss">
+                            <div class="result-badge">D</div>
+                            <div class="result-teams">
+                                <div class="team-row">
+                                    <img src="assets/gatoes.png" alt="Gatões">
+                                    <span class="team-name">Gatões FC</span>
+                                    <span class="score">2</span>
+                                </div>
+                                <div class="team-row">
+                                    <img src="assets/logo.png" alt="Canelas">
+                                    <span class="team-name">CF Canelas 2010</span>
+                                    <span class="score">1</span>
+                                </div>
+                            </div>
+                            <div class="result-date">27 Out</div>
+                        </div>
+
+                        <div class="result-item win">
+                            <div class="result-badge">V</div>
+                            <div class="result-teams">
+                                <div class="team-row">
+                                    <img src="assets/logo.png" alt="Canelas">
+                                    <span class="team-name">CF Canelas 2010</span>
+                                    <span class="score">3</span>
+                                </div>
+                                <div class="team-row">
+                                    <img src="assets/adversario1.png" alt="Adversário">
+                                    <span class="team-name">Adversário</span>
+                                    <span class="score">1</span>
+                                </div>
+                            </div>
+                            <div class="result-date">20 Out</div>
+                        </div>
+
+                        <div class="result-item win">
+                            <div class="result-badge">V</div>
+                            <div class="result-teams">
+                                <div class="team-row">
+                                    <img src="assets/adversario2.png" alt="Adversário">
+                                    <span class="team-name">SC Adversário</span>
+                                    <span class="score">0</span>
+                                </div>
+                                <div class="team-row">
+                                    <img src="assets/logo.png" alt="Canelas">
+                                    <span class="team-name">CF Canelas 2010</span>
+                                    <span class="score">2</span>
+                                </div>
+                            </div>
+                            <div class="result-date">13 Out</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Informação sobre a Competição -->
+                <section class="card">
+                    <div class="card-header">
+                        <h3><i class="fas fa-info-circle"></i> Competição Atual</h3>
+                    </div>
+                    <div class="competition-info">
+                        <div class="comp-detail">
+                            <h4>AF Porto I Divisão - Série 5</h4>
+                            <p>Época 2025/26</p>
+                        </div>
+                        <div class="comp-stats">
+                            <div class="comp-stat">
+                                <span class="label">Fundação</span>
+                                <span class="value">28 Abril 2010</span>
+                            </div>
+                            <div class="comp-stat">
+                                <span class="label">Estádio</span>
+                                <span class="value">Estádio CF Canelas 2010</span>
+                            </div>
+                            <div class="comp-stat">
+                                <span class="label">Localização</span>
+                                <span class="value">Vila Nova de Gaia</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                
+                <!-- Classificação -->
+                <section class="card">
+                    <div class="card-header">
+                        <h3><i class="fas fa-trophy"></i> Classificação</h3>
+                    </div>
+                    <div class="standings">
+                        <div class="standing-item">
+                            <span class="position">1º</span>
+                            <img src="assets/team1.png" alt="Equipa">
+                            <span class="team-name">FC Líder</span>
+                            <span class="points">28</span>
+                        </div>
+                        <div class="standing-item">
+                            <span class="position">2º</span>
+                            <img src="assets/team2.png" alt="Equipa">
+                            <span class="team-name">SC Segundo</span>
+                            <span class="points">26</span>
+                        </div>
+                        <div class="standing-item highlight">
+                            <span class="position">3º</span>
+                            <img src="assets/logo.png" alt="Canelas">
+                            <span class="team-name">CF Canelas 2010</span>
+                            <span class="points">24</span>
+                        </div>
+                        <div class="standing-item">
+                            <span class="position">4º</span>
+                            <img src="assets/team3.png" alt="Equipa">
+                            <span class="team-name">GD Quarto</span>
+                            <span class="points">22</span>
+                        </div>
+                        <div class="standing-item">
+                            <span class="position">5º</span>
+                            <img src="assets/team4.png" alt="Equipa">
+                            <span class="team-name">FC Quinto</span>
+                            <span class="points">20</span>
+                        </div>
+                        <div class="standing-item">
+                            <span class="position">6º</span>
+                            <img src="assets/team5.png" alt="Equipa">
+                            <span class="team-name">CD Sexto</span>
+                            <span class="points">18</span>
+                        </div>
+                    </div>
+                    <a href="https://www.zerozero.pt/competicao/af-porto-i-divisao" target="_blank" class="btn-full">Ver classificação completa</a>
+                </section>
+
+                <!-- Estatísticas -->
+                <section class="card">
+                    <div class="card-header">
+                        <h3><i class="fas fa-chart-bar"></i> Estatísticas</h3>
+                    </div>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-label">Jogos</span>
+                            <span class="stat-value">11</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Vitórias</span>
+                            <span class="stat-value">7</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Empates</span>
+                            <span class="stat-value">3</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Derrotas</span>
+                            <span class="stat-value">1</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Golos Marcados</span>
+                            <span class="stat-value">23</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Golos Sofridos</span>
+                            <span class="stat-value">8</span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Redes Sociais -->
+                <section class="card social-card">
+                    <div class="card-header">
+                        <h3><i class="fas fa-share-alt"></i> Redes Sociais</h3>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-btn facebook">
+                            <i class="fab fa-facebook-f"></i>
+                            <span>Facebook</span>
+                        </a>
+                        <a href="#" class="social-btn instagram">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                        <a href="#" class="social-btn youtube">
+                            <i class="fab fa-youtube"></i>
+                            <span>YouTube</span>
+                        </a>
+                    </div>
+                </section>
+
+                <!-- Links Úteis -->
+                <section class="card">
+                    <div class="card-header">
+                        <h3><i class="fas fa-link"></i> Links Úteis</h3>
+                    </div>
+                    <div class="useful-links">
+                        <a href="https://www.zerozero.pt/equipa/canelas-2010/49813" target="_blank" class="useful-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            <span>Zerozero - Perfil Completo</span>
+                        </a>
+                        <a href="https://www.zerozero.pt/competicao/af-porto-i-divisao" target="_blank" class="useful-link">
+                            <i class="fas fa-trophy"></i>
+                            <span>AF Porto I Divisão</span>
+                        </a>
+                        <a href="https://www.fpf.pt" target="_blank" class="useful-link">
+                            <i class="fas fa-futbol"></i>
+                            <span>Federação Portuguesa de Futebol</span>
+                        </a>
+                    </div>
+                </section>
+
+            </aside>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>CF Canelas 2010</h4>
+                    <p>Clube de Futebol fundado em 28 de abril de 2010, situado em Vila Nova de Gaia, com uma história de paixão e dedicação ao desporto.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="clube.html">O Clube</a></li>
+                        <li><a href="planteis.html">Plantéis</a></li>
+                        <li><a href="galeria.html">Galeria</a></li>
+                        <li><a href="contactos.html">Contactos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contactos</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Estádio CF Canelas 2010</p>
+                    <p><i class="fas fa-location-dot"></i> Canelas, Vila Nova de Gaia</p>
+                    <p><i class="fas fa-envelope"></i> canelas2010@canelas2010.pt</p>
+                    <p><i class="fas fa-phone"></i> +351 220 000 000</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 CF Canelas 2010. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Menu Mobile Toggle
+        const menuToggle = document.querySelector('.menu-toggle');
+        const mainNav = document.querySelector('.main-nav');
+
+        menuToggle.addEventListener('click', () => {
+            mainNav.classList.toggle('active');
+            menuToggle.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
